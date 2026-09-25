@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Toy Haven: discover collectible figurines, toys, board games and diecast cars. A student demo shop.">
+  <meta name="theme-color" content="#1e293b">
+  <title>Toy Haven | Your Collection</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement" role="region" aria-label="Store announcement">A little something for every kind of collector.</div>
+  <header>
+    <a href="index.html" class="logo"><span class="logo-mark" aria-hidden="true">TH</span> TOY HAVEN<span class="logo-dot">.</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+    <nav id="nav-links" aria-label="Main navigation"><a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="wishlist.html" aria-current="page">Wishlist <span id="wish-count">0</span></a>
+<a href="cart.html">Cart <span id="cart-count">0</span></a>
+<a href="support.html">Support</a></nav>
+  </header>
+  <main id="main"><div class="page-title"><p class="eyebrow">A COLLECTION THAT'S YOURS</p><h1>Your wishlist</h1><p>Save your favourites and keep track of what you own.</p></div><div id="wishlist-products" class="product-grid"></div></main>
+  <footer><div><a class="logo" href="index.html">TOY HAVEN.</a><p>Collect. Play. Enjoy.</p><p class="footer-note">A student project, made for the joy of play.</p></div><div><h2>Explore</h2><a href="products.html">Products</a><a href="wishlist.html">Your collection</a><a href="support.html">Feedback & support</a></div><div><h2>A little joy in your inbox</h2><p>New arrivals and collection inspiration.</p><form id="newsletter-form" novalidate><label for="news-email">Email address</label><div class="newsletter-row"><input type="email" id="news-email" name="email" placeholder="you@example.com" required maxlength="150"><button type="submit" class="btn">Subscribe</button></div><p id="newsletter-status" role="status"></p></form><small>Demo subscription saved locally.</small></div></footer>
+  <div id="toast" class="toast" role="status"></div>
+  <dialog id="product-dialog" aria-labelledby="modal-title"><button id="close-dialog" class="secondary close-dialog">Close &times;</button><div id="modal-content"></div></dialog>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
