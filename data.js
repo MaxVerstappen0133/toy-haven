@@ -1,4 +1,6 @@
+// Product list shared by all pages. Each object contains one product.
 const inventory = [
+// id identifies it; name/category/price describe it; img is the image path; description appears in the popup.
     {
         "id": 1,
         "name": "Iron Man Mark 85",

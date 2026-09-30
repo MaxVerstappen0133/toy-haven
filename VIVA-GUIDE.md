@@ -65,8 +65,6 @@ Toy Haven is a six-page front-end demo shop. HTML provides the page structure, C
 - Explain why two $49.99 items total $99.98.
 - Demonstrate an invalid email, an empty cart and a saved wishlist status after refresh.
 
-## Before submission
+## Product images
 
-Product photos are stored locally as WebP files. data.js points to each image; the cards, modal and cart read that path. The homepage banners reuse four of these photos. IMAGE-CREDITS.md records the sources. Keep the credits with the submission.
-
-Complete the formal testing in TESTING.md, prepare your own wireframes and submission document, and publish to the GitHub Pages repository required by your brief. No deployment was performed here. The brief contains an old July 2025 availability date; confirm the current submission schedule with your lecturer.
+Product photos are stored locally as WebP files. data.js points to each image; the cards, modal and cart read that path. The homepage banners reuse four of these photos. IMAGE-CREDITS.md records the sources.
